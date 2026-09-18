@@ -1,0 +1,76 @@
+{
+  "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+  "dtype": "q4",
+  "topK": 24,
+  "recordedAt": "2026-09-18",
+  "shatter": {
+    "text": "The capital of France is",
+    "tokens": [
+      { "id": 504, "text": "The" },
+      { "id": 3575, "text": "·capital" },
+      { "id": 282, "text": "·of" },
+      { "id": 4649, "text": "·France" },
+      { "id": 314, "text": "·is" }
+    ]
+  },
+  "distributions": {
+    "certain": {
+      "prompt": "The capital of France is",
+      "candidates": [
+        { "id": 7042, "text": "·Paris", "logit": 21.2821 },
+        { "id": 3807, "text": "·located", "logit": 17.9803 },
+        { "id": 260, "text": "·the", "logit": 17.3616 },
+        { "id": 597, "text": "·also", "logit": 17.1636 },
+        { "id": 1343, "text": "·known", "logit": 16.4554 },
+        { "id": 441, "text": "·not", "logit": 16.338 },
+        { "id": 1672, "text": "·*", "logit": 16.1425 },
+        { "id": 253, "text": "·a", "logit": 15.9085 },
+        { "id": 1217, "text": "·called", "logit": 15.7662 },
+        { "id": 281, "text": "·in", "logit": 15.4003 },
+        { "id": 1903, "text": "·**", "logit": 15.3256 },
+        { "id": 13010, "text": "·situated", "logit": 15.2341 },
+        { "id": 637, "text": "·'", "logit": 15.2051 },
+        { "id": 28, "text": ",", "logit": 15.1327 },
+        { "id": 476, "text": "·\"", "logit": 14.9788 },
+        { "id": 3365, "text": "·named", "logit": 14.6343 },
+        { "id": 365, "text": "·(", "logit": 14.5678 },
+        { "id": 2837, "text": "·built", "logit": 14.4272 },
+        { "id": 11574, "text": "·officially", "logit": 14.4255 },
+        { "id": 42, "text": ":", "logit": 14.3531 },
+        { "id": 4112, "text": "·currently", "logit": 14.3145 },
+        { "id": 4206, "text": "·City", "logit": 14.1646 },
+        { "id": 2026, "text": "...", "logit": 14.1398 },
+        { "id": 37628, "text": "·Versailles", "logit": 14.0683 }
+      ]
+    },
+    "open": {
+      "prompt": "The rain began just after midnight, and",
+      "candidates": [
+        { "id": 357, "text": "·it", "logit": 17.6038 },
+        { "id": 260, "text": "·the", "logit": 17.0566 },
+        { "id": 411, "text": "·by", "logit": 16.2029 },
+        { "id": 339, "text": "·I", "logit": 15.9903 },
+        { "id": 965, "text": "·then", "logit": 15.5201 },
+        { "id": 392, "text": "·we", "logit": 15.2962 },
+        { "id": 3675, "text": "·continued", "logit": 14.8181 },
+        { "id": 1239, "text": "·though", "logit": 14.7735 },
+        { "id": 281, "text": "·in", "logit": 14.7695 },
+        { "id": 665, "text": "·there", "logit": 14.5571 },
+        { "id": 327, "text": "·for", "logit": 14.5163 },
+        { "id": 624, "text": "·its", "logit": 14.0204 },
+        { "id": 990, "text": "·after", "logit": 13.9728 },
+        { "id": 451, "text": "·this", "logit": 13.9685 },
+        { "id": 645, "text": "·when", "logit": 13.7909 },
+        { "id": 14692, "text": "·stayed", "logit": 13.6954 },
+        { "id": 253, "text": "·a", "logit": 13.6898 },
+        { "id": 761, "text": "·had", "logit": 13.6627 },
+        { "id": 347, "text": "·as", "logit": 13.6395 },
+        { "id": 588, "text": "·so", "logit": 13.6007 },
+        { "id": 3551, "text": "·although", "logit": 13.5831 },
+        { "id": 1041, "text": "·she", "logit": 13.5447 },
+        { "id": 3318, "text": "·soon", "logit": 13.4284 },
+        { "id": 436, "text": "·was", "logit": 13.3727 }
+      ]
+    }
+  }
+}
