@@ -6,7 +6,7 @@ every word it writes. You can fork it: pick a token it didn't choose, and watch 
 No API key, no backend, no server. A real transformer (SmolLM2-360M) runs on your GPU through WebGPU,
 so your prompt never leaves the tab.
 
-## What you do
+## What you will do
 
 1. **Scroll the story.** Four chapters built from *real recorded outputs* of this model explain what
    it actually does. In chapter IV your scroll position **is** the temperature dial: the same logits
